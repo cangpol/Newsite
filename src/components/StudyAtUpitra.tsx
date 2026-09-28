@@ -32,7 +32,7 @@ const StudyAtUpitra = () => {
           {/* Left Side: 1 Tall Card */}
           <div className="group relative rounded-2xl overflow-hidden aspect-[3/4] lg:h-[500px] w-full shadow-md bg-slate-200 cursor-pointer">
             <Image
-              src="/logo.png" // Placeholder, replace with actual image
+              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop"
               alt="Programs at UPITRA"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
@@ -57,7 +57,7 @@ const StudyAtUpitra = () => {
             {/* Top Card */}
             <div className="group relative rounded-2xl overflow-hidden aspect-[16/9] lg:h-[238px] w-full shadow-md bg-slate-200 cursor-pointer">
               <Image
-                src="/logo.png" // Placeholder, replace with actual image
+                src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop"
                 alt="International Affairs"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
@@ -76,7 +76,7 @@ const StudyAtUpitra = () => {
             {/* Bottom Card */}
             <div className="group relative rounded-2xl overflow-hidden aspect-[16/9] lg:h-[238px] w-full shadow-md bg-slate-200 cursor-pointer">
               <Image
-                src="/logo.png" // Placeholder, replace with actual image
+                src="https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?q=80&w=2070&auto=format&fit=crop"
                 alt="Scholarships"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"

@@ -28,7 +28,7 @@ const CampusLifeUpitra = () => {
         {/* Main Banner Image */}
         <div className="relative w-full aspect-video md:h-[480px] rounded-3xl overflow-hidden bg-slate-200 shadow-md">
           <Image
-            src="/logo.png" // Placeholder image
+            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop"
             alt="Campus Life at UPITRA"
             fill
             className="object-cover"

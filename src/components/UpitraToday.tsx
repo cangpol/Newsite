@@ -32,7 +32,7 @@ const UpitraToday = () => {
           {/* Left Side: Featured News (7 Columns) */}
           <Link href="/berita/1" className="lg:col-span-7 h-[420px] rounded-2xl relative overflow-hidden group shadow-md bg-slate-200 cursor-pointer block">
             <Image
-              src="/logo.png" // Placeholder image
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
               alt="Featured News"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
@@ -57,7 +57,7 @@ const UpitraToday = () => {
             {/* Secondary News 1 */}
             <Link href="/berita/2" className="h-[198px] rounded-2xl relative overflow-hidden group shadow-md bg-slate-200 cursor-pointer block">
               <Image
-                src="/logo.png" // Placeholder image
+                src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop"
                 alt="Secondary News 1"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
@@ -76,7 +76,7 @@ const UpitraToday = () => {
             {/* Secondary News 2 */}
             <Link href="/berita/3" className="h-[198px] rounded-2xl relative overflow-hidden group shadow-md bg-slate-200 cursor-pointer block">
               <Image
-                src="/logo.png" // Placeholder image
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop"
                 alt="Secondary News 2"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"

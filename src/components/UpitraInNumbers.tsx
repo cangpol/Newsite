@@ -30,7 +30,7 @@ const UpitraInNumbers = () => {
           
           {/* Background Image */}
           <Image
-            src="/logo.png" // Placeholder image
+            src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2070&auto=format&fit=crop"
             alt="UPITRA in Numbers Banner"
             fill
             className="object-cover"

@@ -58,7 +58,7 @@ const UpitraInclusivity = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mb-6">
             <div className="md:col-span-5 h-[280px] md:h-[340px] rounded-2xl relative overflow-hidden shadow-sm group bg-slate-200 cursor-pointer">
               <Image
-                src="/logo.png" // Placeholder image
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2070&auto=format&fit=crop"
                 alt="Inclusivity 1"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
@@ -66,7 +66,7 @@ const UpitraInclusivity = () => {
             </div>
             <div className="md:col-span-7 h-[280px] md:h-[340px] rounded-2xl relative overflow-hidden shadow-sm group bg-slate-200 cursor-pointer">
               <Image
-                src="/logo.png" // Placeholder image
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2070&auto=format&fit=crop"
                 alt="Inclusivity 2"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
@@ -78,7 +78,7 @@ const UpitraInclusivity = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="h-[220px] md:h-[260px] rounded-2xl relative overflow-hidden shadow-sm group bg-slate-200 cursor-pointer">
               <Image
-                src="/logo.png" // Placeholder image
+                src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=2070&auto=format&fit=crop"
                 alt="Inclusivity 3"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
@@ -86,7 +86,7 @@ const UpitraInclusivity = () => {
             </div>
             <div className="h-[220px] md:h-[260px] rounded-2xl relative overflow-hidden shadow-sm group bg-slate-200 cursor-pointer">
               <Image
-                src="/logo.png" // Placeholder image
+                src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop"
                 alt="Inclusivity 4"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
@@ -94,7 +94,7 @@ const UpitraInclusivity = () => {
             </div>
             <div className="h-[220px] md:h-[260px] rounded-2xl relative overflow-hidden shadow-sm group bg-slate-200 cursor-pointer">
               <Image
-                src="/logo.png" // Placeholder image
+                src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop"
                 alt="Inclusivity 5"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
