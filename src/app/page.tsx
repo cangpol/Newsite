@@ -138,9 +138,6 @@ export default function Home() {
       {/* UPITRA Today News Section */}
       <UpitraToday />
 
-      {/* Information Widgets Section */}
-      <InformationWidgets />
-
       {/* UPITRA in Numbers Section */}
       <UpitraInNumbers />
 
@@ -149,6 +146,9 @@ export default function Home() {
 
       {/* Inclusivity Gallery Section */}
       <UpitraInclusivity />
+
+      {/* Information Widgets Section */}
+      <InformationWidgets />
     </div>
   );
 }

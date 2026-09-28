@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Container from './Container';
+import BrandLogo from './BrandLogo';
 
 const Footer = () => {
   return (
@@ -13,18 +14,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-12 border-b border-slate-200 pb-8">
           
           {/* Sisi Kiri: Logo & Nama Kampus */}
-          <div className="flex items-center gap-4">
-            <div className="relative w-12 h-12 flex-shrink-0">
-              <Image 
-                src="/logo.png" // Placeholder logo UPITRA
-                alt="Logo UPITRA"
-                fill
-                className="object-contain"
-              />
-            </div>
-            <h2 className="text-xl md:text-2xl font-black text-[#0F294A] leading-tight max-w-[200px]">
-              UNIVERSITAS PIGNATELLI TRIPUTRA
-            </h2>
+          <div className="flex items-center">
+            <BrandLogo />
           </div>
 
           {/* Sisi Kanan: Baris Ikon Media Sosial */}
