@@ -3,6 +3,7 @@
 import { useLanguage } from "@/context/LanguageContext";
 import Slideshow from "@/components/Slideshow";
 import StudyAtUpitra from "@/components/StudyAtUpitra";
+import UpitraToday from "@/components/UpitraToday";
 import Link from 'next/link';
 
 export default function Home() {
@@ -128,6 +129,9 @@ export default function Home() {
       
       {/* Study at UPITRA Section */}
       <StudyAtUpitra />
+
+      {/* UPITRA Today News Section */}
+      <UpitraToday />
     </div>
   );
 }
