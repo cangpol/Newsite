@@ -80,37 +80,7 @@ const Footer = () => {
           </div>
 
         </div>
-
-        {/* Baris Informasi Lokasi Kampus & Badge Aplikasi */}
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-6 mb-10 pt-8 border-t border-slate-200">
-          
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
-            {['Kampus Jatinangor', 'Kampus Dipati Ukur', 'Kampus Pangandaran', 'Kontak'].map((loc) => (
-              <Link key={loc} href="#" className="text-sm font-bold text-slate-800 hover:text-[#F2994A] transition-colors">
-                {loc}
-              </Link>
-            ))}
-          </div>
-
-          <div className="flex flex-wrap items-center justify-center lg:justify-end gap-4">
-            <div className="flex gap-2">
-              <button className="bg-slate-900 text-white text-xs font-semibold px-3 py-1.5 rounded-md flex items-center gap-2 hover:bg-slate-800 transition-colors">
-                App Store
-              </button>
-              <button className="bg-slate-900 text-white text-xs font-semibold px-3 py-1.5 rounded-md flex items-center gap-2 hover:bg-slate-800 transition-colors">
-                Google Play
-              </button>
-            </div>
-            <div className="flex items-center gap-4 text-xs font-bold text-slate-600 border-l border-slate-300 pl-4">
-              <span className="cursor-pointer hover:text-slate-900">LAPOR!</span>
-              <span className="cursor-pointer hover:text-slate-900">Kebijakan Privasi</span>
-              <span className="cursor-pointer hover:text-slate-900">Penyangkalan</span>
-            </div>
-          </div>
-
-        </div>
-
-      </Container>
+    </Container>
 
       {/* Bottom Copyright Bar */}
       <div className="w-full bg-[#0F294A] mt-auto">
