@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import BrandLogo from './BrandLogo';
+import Container from './Container';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -206,7 +207,7 @@ const Navbar = () => {
           isScrolled ? 'max-h-0 opacity-0 py-0 border-transparent' : 'max-h-12 py-1.5 opacity-100'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-end items-center text-xs md:text-sm font-medium">
+        <Container className="flex justify-end items-center text-xs md:text-sm font-medium">
           {/* Right Side Links */}
           <div className="hidden md:flex items-center space-x-4 lg:space-x-5">
             <Link href="/kepakaran" className="hover:text-blue-900 transition-colors">{language === 'ID' ? 'Kepakaran' : 'Expertise'}</Link>
@@ -248,12 +249,12 @@ const Navbar = () => {
               />
             </button>
           </div>
-        </div>
+        </Container>
       </div>
 
       {/* Main Navbar */}
       <nav className="w-full bg-white/90 backdrop-blur-md border-b border-slate-100 transition-all duration-300 ease-in-out">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container>
           <div className={`flex justify-between items-center transition-all duration-300 ${isScrolled ? 'h-16' : 'h-20'}`}>
             {/* Logo Section */}
             <div className="flex items-center flex-shrink-0 h-full py-2">
@@ -310,7 +311,7 @@ const Navbar = () => {
                         openDropdown === link.name ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
                       }`}
                     >
-                      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                      <Container className="py-8">
                         <div className="grid grid-cols-4 gap-8">
                           {link.megaMenu.map((column: any) => (
                             <div key={column.title}>
@@ -332,7 +333,7 @@ const Navbar = () => {
                             </div>
                           ))}
                         </div>
-                      </div>
+                      </Container>
                     </div>
                   )}
                 </div>
@@ -378,7 +379,7 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-      </div>
+      </Container>
 
       {/* Mobile Navigation */}
       <div

@@ -4,6 +4,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import Slideshow from "@/components/Slideshow";
 import StudyAtUpitra from "@/components/StudyAtUpitra";
 import UpitraToday from "@/components/UpitraToday";
+import Container from "@/components/Container";
 import Link from 'next/link';
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       
       {/* Gray Section containing the floating buttons */}
       <div className="bg-[#F0F2F5] w-full py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container>
           <div className="flex flex-wrap justify-center gap-6">
             {/* UPITRA BERDAMPAK Button */}
             <Link 
@@ -51,7 +52,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-        </div>
+        </Container>
       </div>
 
       {/* About Section */}
@@ -65,7 +66,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col items-center text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 leading-tight mb-8">
             {language === 'ID' ? 'Jadikan ' : 'Make '}
             <span className="text-[#F2994A]">Upitra</span>
@@ -92,7 +93,7 @@ export default function Home() {
         <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-32 md:h-44 bg-[#F2994A] z-0"></div>
 
         {/* The 3 Cards Container */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <Container className="relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {/* Card 1 */}
             <div className="bg-white rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.06)] p-8 md:p-10 flex flex-col items-center justify-center text-center h-[240px] md:h-[300px] border border-gray-100 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-shadow duration-300">
@@ -124,7 +125,7 @@ export default function Home() {
               </h3>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       
       {/* Study at UPITRA Section */}

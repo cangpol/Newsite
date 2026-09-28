@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import Container from './Container';
 import { useLanguage } from '@/context/LanguageContext';
 
 const UpitraToday = () => {
@@ -9,7 +10,7 @@ const UpitraToday = () => {
 
   return (
     <section className="w-full bg-white py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         
         {/* Header Section */}
         <div className="border-b border-slate-200 pb-6 mb-8">
@@ -103,7 +104,7 @@ const UpitraToday = () => {
           </Link>
         </div>
 
-      </div>
+      </Container>
     </section>
   );
 };

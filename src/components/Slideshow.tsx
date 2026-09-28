@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
+import Container from './Container';
 
 const slides = [
   {
@@ -85,13 +86,13 @@ export default function Slideshow() {
           <div className="absolute inset-0 bg-black/40"></div>
 
           {/* Content */}
-          <div className="absolute inset-0 flex items-center justify-start max-w-7xl mx-auto px-6 lg:px-8">
+          <Container className="absolute inset-0 flex items-center justify-start h-full px-6 lg:px-8">
             <div className={`max-w-2xl transform transition-all duration-1000 delay-300 ${
               index === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
 
             </div>
-          </div>
+          </Container>
         </div>
       ))}
 

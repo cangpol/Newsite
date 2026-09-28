@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import Container from './Container';
 import { useLanguage } from '@/context/LanguageContext';
 
 const StudyAtUpitra = () => {
@@ -9,7 +10,7 @@ const StudyAtUpitra = () => {
 
   return (
     <section className="w-full bg-white py-20 md:py-28">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         
         {/* Header Section */}
         <div className="mb-12">
@@ -94,7 +95,7 @@ const StudyAtUpitra = () => {
           </div>
 
         </div>
-      </div>
+      </Container>
     </section>
   );
 };
