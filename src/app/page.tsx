@@ -4,6 +4,8 @@ import { useLanguage } from "@/context/LanguageContext";
 import Slideshow from "@/components/Slideshow";
 import StudyAtUpitra from "@/components/StudyAtUpitra";
 import UpitraToday from "@/components/UpitraToday";
+import CampusLifeUpitra from "@/components/CampusLifeUpitra";
+import UpitraInclusivity from "@/components/UpitraInclusivity";
 import Container from "@/components/Container";
 import Link from 'next/link';
 
@@ -133,6 +135,12 @@ export default function Home() {
 
       {/* UPITRA Today News Section */}
       <UpitraToday />
+
+      {/* Campus Life Section */}
+      <CampusLifeUpitra />
+
+      {/* Inclusivity Gallery Section */}
+      <UpitraInclusivity />
     </div>
   );
 }
